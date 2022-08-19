@@ -44,9 +44,9 @@ then
     exit 1
     ;;
   esac
+else
+  echo "ignore.txt doesn't exist"
+  for d in */ ; do
+    ( cd "$d" && pwd && git pull)
+  done
 fi
-
-echo "ignore.txt doesn't exist"
-for d in */ ; do
-  ( cd "$d" && pwd && git pull)
-done
