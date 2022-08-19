@@ -13,7 +13,7 @@ Example: <br />
 
 If you want to exclude some repository
 - You need to create ignore.txt file on the path (for example, "C:/RandomDir/DirWithMultipleRepos/ignore.txt").
-  - It is necessary to write the names of the repository in the ignore.txt file. <br /> Repo01,Repo02,Repo03
+  - It is necessary to write the names of the repository in the ignore.txt file. <br />
   - For example if you have 10 repos with names Repo01,Repo02,...,Repo10 <br /> and you want to exclude Repo03 and Repo07 your ignore.txt needs to look like: <br />
   >Repo03<br />
   Repo07<br />
